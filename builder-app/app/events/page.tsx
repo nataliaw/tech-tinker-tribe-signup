@@ -104,7 +104,6 @@ function MyComponent() {
         </div>
         <button
           className="box-border relative shrink-0 px-6 py-4 mt-5 text-center bg-transparent rounded appearance-none cursor-pointer text-[black]"
-          openLinkInNewTab={false}
         >
           Neste
         </button>
@@ -112,3 +111,5 @@ function MyComponent() {
     </div>
   );
 }
+
+export default MyComponent;
