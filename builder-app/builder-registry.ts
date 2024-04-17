@@ -1,7 +1,8 @@
 "use client";
 import { builder, Builder } from "@builder.io/react";
 import Counter from "./components/Counter/Counter";
-import MyComponent from "./components/SignupForm";
+import MyComponent from "./components/signup";
+import SignupForm from "./components/SignupForm";
 
 builder.init(process.env.NEXT_PUBLIC_BUILDER_API_KEY!);
 
@@ -15,6 +16,10 @@ Builder.registerComponent(Counter, {
   ],
 });
 
-Builder.registerComponent(MyComponent, {
+Builder.registerComponent(SignupForm, {
   name: "SignupForm",
+});
+
+Builder.registerComponent(MyComponent, {
+  name: "Signup",
 });

@@ -21,7 +21,7 @@ const Button: React.FC<ButtonProps> = ({ className, children, onClick, type }) =
   );
 };
 
-const MyComponent: React.FC = () => {
+const SignupForm: React.FC = () => {
   const [fullName, setFullName] = React.useState("");
   const [email, setEmail] = React.useState("");
 
@@ -81,4 +81,4 @@ const MyComponent: React.FC = () => {
   );
 };
 
-export default MyComponent;
+export default SignupForm;
